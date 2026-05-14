@@ -1,5 +1,6 @@
-import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
+import { useRef, useState } from "react";
+import { Menu, X } from "lucide-react";
 import { WhatsAppButton } from "./WhatsAppButton";
 import logo from "@/assets/logo.png";
 import cherries from "@/assets/cherries.jpg";
