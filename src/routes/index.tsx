@@ -58,8 +58,8 @@ function Index() {
     <main id="top" className="bg-background text-foreground">
       <Hero />
       <About />
-      <CoffeeProfile />
       <Products />
+      <CoffeeProfile />
       <Maquila />
       <Footer />
       <FloatingWhatsApp />
