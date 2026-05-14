@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import { WhatsAppButton } from "./WhatsAppButton";
+
 import bagsAll from "@/assets/bags-all.jpg";
 
 const steps = [
