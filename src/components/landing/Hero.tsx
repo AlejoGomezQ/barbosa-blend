@@ -71,24 +71,7 @@ export function Hero() {
           className="mt-10 flex flex-wrap items-center gap-4"
         >
           <WhatsAppButton size="lg" variant="wine">Pedir por WhatsApp</WhatsAppButton>
-          <a href="#perfil" className="group inline-flex items-center gap-2 px-2 py-3 text-sm font-medium text-cream/90 transition-colors hover:text-cream">
-            Conoce el perfil
-            <span className="transition-transform duration-500 group-hover:translate-x-1">→</span>
-          </a>
         </motion.div>
-      </motion.div>
-
-      {/* Scroll hint */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.5, delay: 1.4 }}
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-cream/60"
-      >
-        <div className="flex flex-col items-center gap-2">
-          <span className="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
-          <div className="h-10 w-px bg-gradient-to-b from-cream/60 to-transparent" />
-        </div>
       </motion.div>
     </section>
   );
