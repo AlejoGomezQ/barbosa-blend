@@ -32,7 +32,6 @@ export function Hero() {
       <header className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 pt-8 md:px-10">
         <a href="#top" className="flex items-center gap-3">
           <img src={logo} alt="Café Barbosa" className="h-12 w-12 rounded-full ring-1 ring-cream/30 md:h-14 md:w-14" />
-          <span className="font-serif text-lg tracking-wide md:text-xl">Café Barbosa</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
           <a href="#nosotros" className="opacity-80 transition-opacity hover:opacity-100">Nosotros</a>
