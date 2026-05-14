@@ -46,34 +46,14 @@ export function Hero() {
 
       {/* Content */}
       <motion.div style={{ opacity }} className="relative z-10 mx-auto flex min-h-[calc(100svh-8rem)] max-w-7xl flex-col justify-center px-6 py-16 md:px-10">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="font-script text-2xl text-cream/90 md:text-3xl"
-        >
-          El aroma de mis montañas
-        </motion.p>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-4xl font-serif text-5xl leading-[1.05] tracking-tight text-balance md:text-7xl lg:text-8xl"
+          transition={{ duration: 1.1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          className="max-w-4xl font-serif text-5xl leading-[1.05] tracking-tight text-balance md:text-7xl lg:text-8xl"
         >
           Café de altura, <em className="font-script not-italic text-cream/95">cosechado</em> por trece familias en Barbosa, Antioquia.
         </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-8 max-w-xl text-base leading-relaxed text-cream/80 md:text-lg"
-        >
-          Caturro, Borbón y Colombia cultivados entre 1.300 y 2.000 msnm.
-          Notas a panela, caramelo, frutos rojos, limoncillo y chocolate.
-          Cuerpo cremoso, acidez alta.
-        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
