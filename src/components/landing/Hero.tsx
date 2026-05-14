@@ -52,8 +52,17 @@ export function Hero() {
           transition={{ duration: 1.1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-4xl font-serif text-5xl leading-[1.05] tracking-tight text-balance md:text-7xl lg:text-8xl"
         >
-          Café de altura, <em className="font-script not-italic text-cream/95">cosechado</em> por trece familias en Barbosa, Antioquia.
+          Café de finca, <em className="font-script not-italic text-cream/95">cosechado</em> por trece familias en Barbosa, Antioquia.
         </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-8 max-w-2xl text-base leading-relaxed text-cream/85 md:text-lg"
+        >
+          Buscamos mostrar el café que producen las fincas como un producto de excelente calidad, diferenciado por sus atributos en taza que lo caracterizan por su fragancia y aroma.
+        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

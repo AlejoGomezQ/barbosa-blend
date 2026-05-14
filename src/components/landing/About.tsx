@@ -10,28 +10,11 @@ export function About() {
           </span>
         </Reveal>
 
-        <div className="mt-8 grid gap-16 md:grid-cols-12 md:gap-12">
-          <Reveal delay={0.1} className="md:col-span-7">
-            <h2 className="font-serif text-4xl leading-[1.1] tracking-tight text-foreground text-balance md:text-6xl">
-              Trece familias caficultoras, <em className="font-script not-italic text-wine">una sola</em> historia en cada taza.
-            </h2>
-          </Reveal>
-
-          <Reveal delay={0.2} className="md:col-span-5 md:pt-3">
-            <div className="space-y-5 text-base leading-relaxed text-muted-foreground md:text-[17px]">
-              <p>
-                Somos una asociación de trece familias caficultoras de Barbosa,
-                Antioquia, conformada para mostrar el café de nuestras fincas
-                como un producto de excelente calidad, diferenciado por sus
-                atributos en taza, su fragancia y aroma.
-              </p>
-              <p>
-                Las variedades cultivadas en nuestros suelos y la diversidad
-                térmica del municipio hacen de este un café especial.
-              </p>
-            </div>
-          </Reveal>
-        </div>
+        <Reveal delay={0.1} className="mt-8">
+          <h2 className="font-serif text-4xl leading-[1.1] tracking-tight text-foreground text-balance md:text-6xl">
+            Una sola <em className="font-script not-italic text-wine">historia</em> en cada taza.
+          </h2>
+        </Reveal>
 
         {/* Línea de tiempo / cifras */}
         <div className="mt-24 grid gap-px overflow-hidden rounded-2xl bg-border md:grid-cols-3">
