@@ -11,6 +11,14 @@ export function Hero() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const y = useTransform(scrollYProgress, [0, 1], reduce ? ["0%", "0%"] : ["0%", "20%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const navLinks = [
+    { href: "#nosotros", label: "Nosotros" },
+    { href: "#productos", label: "Productos" },
+    { href: "#perfil", label: "Perfil" },
+    { href: "#maquila", label: "Maquila" },
+  ];
 
   return (
     <section ref={ref} className="relative min-h-[100svh] overflow-hidden bg-primary text-primary-foreground">
