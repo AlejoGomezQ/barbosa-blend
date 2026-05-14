@@ -38,7 +38,7 @@ export function About() {
           {[
             { k: "2013", v: "Año de fundación", d: "Nacimos integrando caficultores de distintas veredas." },
             { k: "13", v: "Familias asociadas", d: "Comprometidas con prácticas sostenibles y desarrollo social." },
-            { k: "1.300–2.000", v: "msnm de altura", d: "Cultivos en suelos diversos del municipio de Barbosa." },
+            { k: "+100", v: "Personas impactadas", d: "Beneficiarios indirectos que fortalecen el tejido social y económico de la región." },
           ].map((item, i) => (
             <Reveal key={item.k} delay={i * 0.1} className="bg-cream p-8 md:p-10">
               <div className="font-serif text-4xl text-primary md:text-5xl">{item.k}</div>

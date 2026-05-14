@@ -65,9 +65,6 @@ export function CoffeeProfile() {
           <Reveal delay={0.2} className="md:col-span-5">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl ring-1 ring-cream/15">
               <img src={cup} alt="Taza de café tostado" className="h-full w-full object-cover" loading="lazy" />
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-primary/90 to-transparent p-8">
-                <p className="font-script text-2xl text-cream md:text-3xl">El aroma de mis montañas</p>
-              </div>
             </div>
           </Reveal>
         </div>

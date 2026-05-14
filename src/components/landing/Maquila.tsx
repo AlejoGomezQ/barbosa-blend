@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import { WhatsAppButton } from "./WhatsAppButton";
+
 import bagsAll from "@/assets/bags-all.jpg";
 
 const steps = [
@@ -50,18 +50,6 @@ export function Maquila() {
                 </Reveal>
               ))}
             </div>
-
-            <Reveal delay={0.3}>
-              <div className="mt-10">
-                <WhatsAppButton
-                  variant="wine"
-                  size="lg"
-                  message="Holaaa! Quisiera cotizar el servicio de maquila de café ☕"
-                >
-                  Cotizar maquila
-                </WhatsAppButton>
-              </div>
-            </Reveal>
           </div>
         </div>
       </div>

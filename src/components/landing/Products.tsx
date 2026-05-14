@@ -77,7 +77,6 @@ export function Products() {
                 <div className="flex flex-1 flex-col p-7">
                   <div className="flex items-baseline justify-between">
                     <h3 className="font-serif text-3xl text-foreground">{p.weight}</h3>
-                    <span className="text-xs text-muted-foreground">{p.netWt}</span>
                   </div>
                   <div className="mt-1 text-sm font-medium text-primary">{p.name}</div>
                   <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{p.desc}</p>

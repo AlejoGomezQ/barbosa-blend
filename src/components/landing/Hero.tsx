@@ -24,15 +24,14 @@ export function Hero() {
           className="h-full w-full object-cover scale-110"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/85 via-primary/70 to-primary" />
-        <div className="absolute inset-0 grain opacity-40 mix-blend-overlay" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/55 to-primary/85" />
+        <div className="absolute inset-0 grain opacity-30 mix-blend-overlay" />
       </motion.div>
 
       {/* Nav */}
       <header className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 pt-8 md:px-10">
         <a href="#top" className="flex items-center gap-3">
           <img src={logo} alt="Café Barbosa" className="h-12 w-12 rounded-full ring-1 ring-cream/30 md:h-14 md:w-14" />
-          <span className="font-serif text-lg tracking-wide md:text-xl">Café Barbosa</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
           <a href="#nosotros" className="opacity-80 transition-opacity hover:opacity-100">Nosotros</a>
@@ -47,34 +46,14 @@ export function Hero() {
 
       {/* Content */}
       <motion.div style={{ opacity }} className="relative z-10 mx-auto flex min-h-[calc(100svh-8rem)] max-w-7xl flex-col justify-center px-6 py-16 md:px-10">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="font-script text-2xl text-cream/90 md:text-3xl"
-        >
-          El aroma de mis montañas
-        </motion.p>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-4xl font-serif text-5xl leading-[1.05] tracking-tight text-balance md:text-7xl lg:text-8xl"
+          transition={{ duration: 1.1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          className="max-w-4xl font-serif text-5xl leading-[1.05] tracking-tight text-balance md:text-7xl lg:text-8xl"
         >
           Café de altura, <em className="font-script not-italic text-cream/95">cosechado</em> por trece familias en Barbosa, Antioquia.
         </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-8 max-w-xl text-base leading-relaxed text-cream/80 md:text-lg"
-        >
-          Caturro, Borbón y Colombia cultivados entre 1.300 y 2.000 msnm.
-          Notas a panela, caramelo, frutos rojos, limoncillo y chocolate.
-          Cuerpo cremoso, acidez alta.
-        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
