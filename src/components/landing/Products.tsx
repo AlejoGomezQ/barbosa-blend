@@ -1,8 +1,8 @@
 import { Reveal } from "./Reveal";
 import { WhatsAppButton } from "./WhatsAppButton";
-import bag200 from "@/assets/bag-200.jpg";
-import bag400 from "@/assets/bag-400.jpg";
-import bag2500 from "@/assets/bag-2500.jpg";
+import bag200 from "@/assets/bag-200.webp";
+import bag400 from "@/assets/bag-400.webp";
+import bag2500 from "@/assets/bag-2500.webp";
 
 const products = [
   {

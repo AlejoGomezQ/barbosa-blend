@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import cup from "@/assets/cup.jpg";
+import cup from "@/assets/cup.webp";
 
 const profile = [
   { label: "Variedad", value: "Caturro · Borbón · Colombia" },
