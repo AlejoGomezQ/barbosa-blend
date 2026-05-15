@@ -8,7 +8,6 @@ const products = [
   {
     img: bag200,
     weight: "200 g",
-    netWt: "7,05 oz",
     name: "Special Blend",
     desc: "Ideal para descubrir el perfil del café o llevar a cualquier parte.",
     msg: "Holaaa! Quiero pedir la presentación de 200g ☕",
@@ -16,7 +15,6 @@ const products = [
   {
     img: bag400,
     weight: "400 g",
-    netWt: "14,1 oz",
     name: "Special Blend",
     desc: "El formato preferido para el consumo diario en casa o la oficina.",
     msg: "Holaaa! Quiero pedir la presentación de 400g ☕",
@@ -25,7 +23,6 @@ const products = [
   {
     img: bag2500,
     weight: "2.5 kg",
-    netWt: "88,18 oz",
     name: "Formato cafetería",
     desc: "Pensado para cafeterías, restaurantes y consumidores frecuentes.",
     msg: "Holaaa! Quiero pedir la presentación de 2.5kg ☕",
@@ -34,23 +31,24 @@ const products = [
 
 export function Products() {
   return (
-    <section id="productos" className="relative bg-background py-28 md:py-40">
-      <div className="mx-auto max-w-7xl px-6 md:px-10">
+    <section id="productos" className="relative overflow-hidden bg-primary py-28 text-primary-foreground md:py-40">
+      <div className="absolute inset-0 grain opacity-20" />
+      <div className="relative mx-auto max-w-7xl px-6 md:px-10">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-end">
           <div>
             <Reveal>
-              <span className="text-[10px] font-medium uppercase tracking-[0.4em] text-wine">
+              <span className="text-[10px] font-medium uppercase tracking-[0.4em] text-cream/70">
                 Nuestros productos
               </span>
             </Reveal>
             <Reveal delay={0.1}>
-              <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-[1.05] tracking-tight text-foreground text-balance md:text-6xl">
-                Tres presentaciones, <em className="font-script not-italic text-wine">disponibles</em> en grano o molido.
+              <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-[1.05] tracking-tight text-balance md:text-6xl">
+                Tres presentaciones, <em className="font-script not-italic text-cream">disponibles</em> en grano o molido.
               </h2>
             </Reveal>
           </div>
           <Reveal delay={0.2}>
-            <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
+            <p className="max-w-sm text-sm leading-relaxed text-cream/80">
               Café 100% colombiano de la asociación, registro Invima
               NSA‑004122‑2017. Elige tu presentación y te lo despachamos.
             </p>
@@ -60,7 +58,7 @@ export function Products() {
         <div className="mt-16 grid gap-6 md:grid-cols-3 md:gap-8">
           {products.map((p, i) => (
             <Reveal key={p.weight} delay={i * 0.12}>
-              <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl bg-cream ring-1 ring-border transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_30px_60px_-30px_oklch(0.32_0.06_45/0.4)]">
+              <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl bg-cream ring-1 ring-cream/20 transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_30px_60px_-30px_oklch(0_0_0/0.5)]">
                 {p.featured && (
                   <span className="absolute right-5 top-5 z-10 rounded-full bg-wine px-3 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-wine-foreground">
                     Más pedido
