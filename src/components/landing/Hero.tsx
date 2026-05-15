@@ -33,8 +33,8 @@ export function Hero() {
           className="h-full w-full object-cover scale-110"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/55 to-primary/85" />
-        <div className="absolute inset-0 grain opacity-30 mix-blend-overlay" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/40 to-primary/70" />
+        <div className="absolute inset-0 grain opacity-20 mix-blend-overlay" />
       </motion.div>
 
       {/* Nav */}
