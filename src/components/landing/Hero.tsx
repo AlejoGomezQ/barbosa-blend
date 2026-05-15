@@ -2,8 +2,8 @@ import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } fr
 import { useRef, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { WhatsAppButton } from "./WhatsAppButton";
-import logo from "@/assets/logo.png";
-import cherries from "@/assets/cherries.jpg";
+import logo from "@/assets/logo.webp";
+import cherries from "@/assets/cherries.webp";
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -42,7 +42,7 @@ export function Hero() {
       {/* Nav */}
       <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 pt-8 md:px-10">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="Café Barbosa" className="h-12 w-12 rounded-full ring-1 ring-cream/30 md:h-14 md:w-14" />
+          <img src={logo} alt="Café Barbosa" width="72" height="72" className="h-16 w-16 rounded-full ring-1 ring-cream/30 md:h-20 md:w-20" />
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
           {navLinks.map((l) => (

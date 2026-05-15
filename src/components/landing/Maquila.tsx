@@ -1,6 +1,6 @@
 import { Reveal } from "./Reveal";
 
-import bagsAll from "@/assets/bags-all.jpg";
+import bagsAll from "@/assets/bags-all.webp";
 
 const steps = [
   { n: "01", t: "Recepción", d: "Recibimos tu café pergamino o verde en nuestra planta." },
