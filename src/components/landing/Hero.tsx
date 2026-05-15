@@ -25,7 +25,7 @@ export function Hero() {
       {/* Background image */}
       <motion.div
         style={{ y }}
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0 z-0"
       >
         <img
           src={cherries}
@@ -33,8 +33,9 @@ export function Hero() {
           className="h-full w-full object-cover scale-110"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/40 to-primary/70" />
-        <div className="absolute inset-0 grain opacity-20 mix-blend-overlay" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-primary/15 to-primary/45" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/45 via-primary/10 to-transparent" />
+        <div className="absolute inset-0 grain opacity-10 mix-blend-overlay" />
       </motion.div>
 
       {/* Nav */}
