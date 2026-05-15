@@ -33,8 +33,9 @@ export function Hero() {
           className="h-full w-full object-cover scale-110"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-primary/15 to-primary/45" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/45 via-primary/10 to-transparent" />
+        <div className="absolute inset-0 bg-primary/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/35 to-primary/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/50 via-primary/20 to-primary/30" />
         <div className="absolute inset-0 grain opacity-10 mix-blend-overlay" />
       </motion.div>
 
