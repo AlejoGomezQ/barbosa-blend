@@ -82,8 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Café Barbosa" },
       { name: "twitter:description", content: "Buscamos mostrar el café que producen las fincas como un producto de excelente calidad, diferenciado por sus atributos en taza que lo caracterizan por su fragan" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cc529ddd-74c3-48b6-a717-900b5bf995ee/id-preview-c91ed3f0--501ae587-87ce-4ce2-87d3-0dfb1c290410.lovable.app-1778817216078.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cc529ddd-74c3-48b6-a717-900b5bf995ee/id-preview-c91ed3f0--501ae587-87ce-4ce2-87d3-0dfb1c290410.lovable.app-1778817216078.png" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/PYZp67zwp5P6BAiXTmrQd5BrASc2/social-images/social-1778947738683-etiqueta_PNG.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/PYZp67zwp5P6BAiXTmrQd5BrASc2/social-images/social-1778947738683-etiqueta_PNG.webp" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
