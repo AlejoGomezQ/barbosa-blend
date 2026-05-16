@@ -38,7 +38,7 @@ export function Footer() {
                 Centro de transformación agrícola
               </li>
               <li>
-                <a href="https://wa.me/573014975996" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary">
+                <a href="https://wa.link/rev5pu" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary">
                   +57 301 497 5996 · WhatsApp
                 </a>
               </li>
