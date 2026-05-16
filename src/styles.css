@@ -137,5 +137,6 @@
 }
 
 #lovable-badge {
-  display: none;
+  display: none !important;
+  z-index: -100000 !important;
 }
