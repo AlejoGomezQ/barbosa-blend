@@ -17,7 +17,6 @@ export function Hero() {
     { href: "#nosotros", label: "Nosotros" },
     { href: "#productos", label: "Productos" },
     { href: "#perfil", label: "Perfil" },
-    { href: "#maquila", label: "Maquila" },
   ];
 
   return (
@@ -100,7 +99,7 @@ export function Hero() {
           transition={{ duration: 1.1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-4xl font-serif text-5xl leading-[1.05] tracking-tight text-balance md:text-7xl lg:text-8xl"
         >
-          Café de finca, <em className="font-script not-italic text-cream/95">cosechado</em> por trece familias en Barbosa, Antioquia.
+          Café de finca, cosechado por trece familias en Barbosa, Antioquia.
         </motion.h1>
 
         <motion.p

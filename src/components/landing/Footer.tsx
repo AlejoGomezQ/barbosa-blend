@@ -25,7 +25,6 @@ export function Footer() {
               <li><a href="#nosotros" className="transition-colors hover:text-primary">Nosotros</a></li>
               <li><a href="#perfil" className="transition-colors hover:text-primary">Perfil</a></li>
               <li><a href="#productos" className="transition-colors hover:text-primary">Productos</a></li>
-              <li><a href="#maquila" className="transition-colors hover:text-primary">Maquila</a></li>
             </ul>
           </div>
 
@@ -38,7 +37,7 @@ export function Footer() {
                 Centro de transformación agrícola
               </li>
               <li>
-                <a href="https://wa.link/rev5pu" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary">
+                <a href="https://wa.link/s4cybz" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary">
                   +57 301 497 5996 · WhatsApp
                 </a>
               </li>

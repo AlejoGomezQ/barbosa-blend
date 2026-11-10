@@ -36,14 +36,9 @@ export function Products() {
       <div className="relative mx-auto max-w-7xl px-6 md:px-10">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-end">
           <div>
-            <Reveal>
-              <span className="text-[10px] font-medium uppercase tracking-[0.4em] text-cream/70">
-                Nuestros productos
-              </span>
-            </Reveal>
-            <Reveal delay={0.1}>
-              <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-[1.05] tracking-tight text-balance md:text-6xl">
-                Tres presentaciones, <em className="font-script not-italic text-cream">disponibles</em> en grano o molido.
+            <Reveal delay={0}>
+              <h2 className="max-w-2xl font-serif text-4xl leading-[1.05] tracking-tight text-balance md:text-6xl">
+                Tres presentaciones disponibles en grano o molido.
               </h2>
             </Reveal>
           </div>
