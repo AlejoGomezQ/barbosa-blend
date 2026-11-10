@@ -37,7 +37,6 @@
   --color-ring: var(--ring);
   --font-serif: "Cormorant Garamond", "Cormorant", ui-serif, Georgia, serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-script: "Caveat", cursive;
 }
 
 :root {
@@ -123,9 +122,6 @@
 }
 
 @layer utilities {
-  .font-script {
-    font-family: var(--font-script);
-  }
   .text-balance {
     text-wrap: balance;
   }

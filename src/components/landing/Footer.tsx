@@ -25,7 +25,6 @@ export function Footer() {
               <li><a href="#nosotros" className="transition-colors hover:text-primary">Nosotros</a></li>
               <li><a href="#perfil" className="transition-colors hover:text-primary">Perfil</a></li>
               <li><a href="#productos" className="transition-colors hover:text-primary">Productos</a></li>
-              <li><a href="#maquila" className="transition-colors hover:text-primary">Maquila</a></li>
             </ul>
           </div>
 
@@ -33,12 +32,11 @@ export function Footer() {
             <h4 className="text-xs font-medium uppercase tracking-[0.3em] text-foreground">Contacto</h4>
             <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
               <li>
-                <span className="block text-xs uppercase tracking-wider text-muted-foreground/70">Dirección</span>
                 Carrera 21 No. 11‑30, Barbosa, Antioquia<br />
                 Centro de transformación agrícola
               </li>
               <li>
-                <a href="https://wa.link/rev5pu" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary">
+                <a href="https://wa.link/s4cybz" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary">
                   +57 301 497 5996 · WhatsApp
                 </a>
               </li>

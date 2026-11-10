@@ -16,16 +16,10 @@ export function CoffeeProfile() {
   return (
     <section id="perfil" className="relative overflow-hidden bg-background py-28 text-foreground md:py-40">
       <div className="relative mx-auto max-w-7xl px-6 md:px-10">
-        <Reveal>
-          <span className="text-[10px] font-medium uppercase tracking-[0.4em] text-wine">
-            Perfil de taza
-          </span>
-        </Reveal>
-
-        <div className="mt-8 grid gap-16 md:grid-cols-12 md:gap-12">
+        <div className="grid gap-16 md:grid-cols-12 md:gap-12">
           <Reveal delay={0.1} className="md:col-span-7">
             <h2 className="font-serif text-4xl leading-[1.05] tracking-tight text-balance md:text-6xl">
-              Notas <em className="font-script not-italic text-wine">apaneladas</em>, frutos rojos y un final a chocolate.
+              Notas apaneladas, frutos rojos y un final a chocolate.
             </h2>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
               Una mezcla cuidadosamente perfilada en nuestro laboratorio, con

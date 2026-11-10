@@ -3,7 +3,6 @@ import { Hero } from "@/components/landing/Hero";
 import { About } from "@/components/landing/About";
 import { CoffeeProfile } from "@/components/landing/CoffeeProfile";
 import { Products } from "@/components/landing/Products";
-import { Maquila } from "@/components/landing/Maquila";
 import { Footer } from "@/components/landing/Footer";
 import { FloatingWhatsApp } from "@/components/landing/FloatingWhatsApp";
 
@@ -60,7 +59,6 @@ function Index() {
       <About />
       <Products />
       <CoffeeProfile />
-      <Maquila />
       <Footer />
       <FloatingWhatsApp />
     </main>

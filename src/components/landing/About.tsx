@@ -4,15 +4,9 @@ export function About() {
   return (
     <section id="nosotros" className="relative bg-background py-28 md:py-40">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
-        <Reveal>
-          <span className="text-[10px] font-medium uppercase tracking-[0.4em] text-wine">
-            Quiénes somos
-          </span>
-        </Reveal>
-
-        <Reveal delay={0.1} className="mt-8">
+        <Reveal delay={0} className="mt-0">
           <h2 className="font-serif text-4xl leading-[1.1] tracking-tight text-foreground text-balance md:text-6xl">
-            Una sola <em className="font-script not-italic text-wine">historia</em> en cada taza.
+            Una sola historia en cada taza.
           </h2>
         </Reveal>
 
