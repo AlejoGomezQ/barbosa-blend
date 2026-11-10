@@ -32,7 +32,6 @@ export function Footer() {
             <h4 className="text-xs font-medium uppercase tracking-[0.3em] text-foreground">Contacto</h4>
             <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
               <li>
-                <span className="block text-xs uppercase tracking-wider text-muted-foreground/70">Dirección</span>
                 Carrera 21 No. 11‑30, Barbosa, Antioquia<br />
                 Centro de transformación agrícola
               </li>
